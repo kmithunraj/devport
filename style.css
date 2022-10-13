@@ -121,7 +121,7 @@ main{
     width: 300px;
     padding: 10px;
 }
-.login_page .login_wrapper .login_form form input[type=text]{
+.login_page .login_wrapper .login_form form input[type=email]{
     width: 300px;
     font-size: 1.4rem;
     padding: 3px;
@@ -144,18 +144,102 @@ main{
     border-radius: 20px;
     padding: 5px;
 }
+.login_page .login_wrapper .login_form form input[type=button]{
+    width: 100%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: #004aad;
+    color: #f9f9f9;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+}
+.login_page .login_wrapper .login_form p{
+    width: 100%;
+    text-align: center;
+}
 
 
 
 
 
 
+.dashboard_wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+.sidebar{
+    width: 20vw;
+    height: 100vh;
+    background-color: #f9f9f9;
+    color: #343434;
 
+}
+.sidebar img{
+    width: 20vw;
+}
+.sidebar a{
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.dashboard_details_wrapper{
+    width: 80vw;
+    height: 100vh;
+}
+.dashboard_details_wrapper h1{
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 3rem;
+}
+.dashboard_details{
+    padding: 10px;
+    padding-left: 30px;
+}
+.dashboard_details form{
+    padding-bottom: 40px;
+}
+.dashboard_details label{
+    font-size: 2rem;
+}
 
-
-
-
-
+.dashboard_details input[type=text]{
+    font-size: 1.5rem;
+    padding: 5px;
+    width: 500px;
+    border-radius: 10px;
+    border: none;
+}
+.dashboard_details input[type=email]{
+    font-size: 1.5rem;
+    padding: 5px;
+    width: 500px;
+    border-radius: 10px;
+    border: none;
+}
+.dashboard_details input[type=submit]{
+    font-size: 1.5rem;
+    padding: 5px;
+    width: 500px;
+    border-radius: 10px;
+    border: none;
+    background-color: #004aad;
+    color: #f9f9f9;
+}
+.dashboard_details textarea{
+    font-size: 1.5rem;
+    padding: 5px;
+    width: 500px;
+    border-radius: 10px;
+    border: none;
+}
+.dashboard_details_wrapper img{
+    width: 500px;
+    position: fixed;
+    top: 100px;
+    right: 50px;
+}
 
 
 
