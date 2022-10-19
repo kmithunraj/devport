@@ -8,7 +8,7 @@
     <title>Login</title>
     
     <link rel="stylesheet" href="style.css">
-    <link href="/script.js">
+    <script defer src="/script.js"></script>
 
 </head>
 <body>
@@ -21,25 +21,25 @@
 
             <div class="login_form">
 
-                <form method="post" id="formLogin">
+                <form method="post" id="login-form">
 
                     <label for="username">Email</label>
                     <br>
-                    <input type="email" name="username" id="username" required>
+                    <input type="email" name="username" id="username-field">
 
                     <br>
                     <br>
 
                     <label for="username">Password</label>
                     <br>
-                    <input type="password" name="username" id="username" required>
+                    <input type="password" name="password" id="password-field">
                     <br>
                     <a href="#">Forgot Password?</a>
 
                     <br>
                     <br>
 
-                    <input type="submit" value="Login">
+                    <input type="submit" id="login-form-submit" value="Login">
 
                 </form>
 
