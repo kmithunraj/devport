@@ -15,7 +15,7 @@ loginButton.addEventListener("click", (e) => {
 
 for(const i =0; i < loginlist.User.userlist.length; i++){
     if(username == loginlist.User.userlist[i].username && password == loginlist.User.userlist[i].password){
-        window.location.href="dashboard.html";
+        window.location.href="https://mithunraj.com/devport/dashboard.html";
     }
     else{
       alert('Wrong username or password');
